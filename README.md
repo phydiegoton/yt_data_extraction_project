@@ -9,3 +9,6 @@ Download all repositories with zip.
 Run de main file "yt_pafydata_attributes".
 
 In case of changing the keyword searched: The keyword target must be changed at the secondary files "yt_url_research_english" and "yt_url_researh_spanish"
+# Requirements Package
+Install youtube-dl.
+NOTE: Pafy is integrated at this repository with some code edited renaming it, as eps.
