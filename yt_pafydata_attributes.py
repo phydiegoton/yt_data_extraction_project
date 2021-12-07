@@ -43,9 +43,12 @@ for url in vid_urls_spanish,vid_urls_english:
         except:
             continue  
 #Creo un Dataframe pasando la info de las listas al DataFrame y genero un Excel con los datos
+vid_urls=[]
+vid_urls.extend(vid_urls_spanish)
+vid_urls.extend(vid_urls_english)
 try:
     df=pd.DataFrame()
-    df['URL']=vid_urls_spanish.extend(vid_urls_english)
+    df['URL']=vid_urls
     df['Título']=title
     df['Autor']=author
     df['Rating']=rating
